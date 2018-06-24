@@ -2,4 +2,21 @@
 body{
   background-color: e3e3e3;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  width: 100%;
+}
+
+section.jumbotron{
+  height: 100%;
+  border-radius: 0px;
+  background-color: red;
+}
+
+.footer-item, .footer-link, .footer{
+  padding: 0px 0px;;
+  margin: 0px;
+  display: inline;
+}
+
+footer{
+  display:inline;
 }

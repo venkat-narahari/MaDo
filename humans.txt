@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* TEAM */
+    Frontend Developer: N Venkat Ramana Reddy
+    Twitter: venkat_narahari
+    From: Banglore, Karnataka, India
+
+/* TECHNOLOGY COLOPHON */
+    HTML5, CSS3
+
+/* SITE */
+    Site Name: MADO
+    Site URL: https://github.com/venkat-narahari/MaDo/
+    Last Update: 24 June 2018
+    Language: English
+
