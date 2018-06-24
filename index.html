@@ -1,93 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-</head>
-<body class="m-4 shadow-lg">
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light m-0 sticky-top" style="margin:24px 0;">
-    <a class="navbar-brand" href="#">MaDo</a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  </head>
+  <body class="m-4 shadow-lg">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light m-0 sticky-top" style="margin:24px 0;">
+      <a class="navbar-brand" href="#">MaDo</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse ml-md-auto" id="navb">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">WORK</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">TOOLS</a>
-        </li>
+      <div class="collapse navbar-collapse ml-md-auto" id="navb">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">WORK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TOOLS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="jumbotron text-center">
+    <h1>We create new age Ad Films.</h1>
+    <p>Filmmaking for business.</p>
+  </section>
+  <section class="jumbotron text-center v-100">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators carousel-indicators-dark">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
       </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card" style="width:100%">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/FnQyTR7SJeg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div class="card-body">
+              <h4 class="card-title">Adidas</h4>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" style="width:100%">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/-pF5bV6bFOU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div class="card-body">
+              <h4 class="card-title">Apple</h4>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" style="width:100%">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/6zTJlK3YeS8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div class="card-body">
+              <h4 class="card-title">Kotak</h4>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
     </div>
-  </nav>
-</header>
-<section class="jumbotron text-center v-100">
-  <h1>We create new age Ad Films.</h1>
-  <p>Filmmaking for business.</p>
-</section>
-<section class="jumbotron text-center v-100">
-  <div id="demo" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ul class="carousel-indicators carousel-indicators-dark">
-      <li data-target="#demo" data-slide-to="0" class="active"></li>
-      <li data-target="#demo" data-slide-to="1"></li>
-      <li data-target="#demo" data-slide-to="2"></li>
+  </section>
+
+  <section class="jumbotron text-center">
+    <h3>We like the internet.<br /> We love a high-powered internet connection.<br /> And we go gaga over free WiFi connection, because we travel a lot (just to make things clear). Digital media has leveled the marketing and communication playing field.<br /> We’ve worked with small and medium sized enterprises in areas pertaining to creative and content management, design delivery, brand strategy, public relations, growth-hack solutions and user-interface and experience coupled with robust technology development.<br /> We are amongst the top creative agencies in Bangalore, and we’ve been recognized at several advertising and communication forums for our quirky, subtle and witty creative concepts that have yielded tremendous growth for the clients who’ve partnered with us.<br /> We are the Bold, Brave and Brilliant Marketing & Communication, Design and Development, Strategy & Consulting Creative Agency located in the startup capital of India – Bangalore.</h3>
+  </section>
+
+  <section class="container mt-3">
+    <h2>Toggleable Tabs</h2>
+    <br>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#home">Editing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu1">Electronics</a>
+      </li>
     </ul>
 
-    <!-- The slideshow -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="card" style="width:100%">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/FnQyTR7SJeg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <div class="card-body">
-            <h4 class="card-title">Adidas</h4>
-          </div>
-        </div>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div id="home" class="container tab-pane active"><br>
+        <h3>Electronics</h3>
+        <p>Adobe Primier Pro</p>
+        <p>Final Cut Pro</p>
       </div>
-      <div class="carousel-item">
-        <div class="card" style="width:100%">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/-pF5bV6bFOU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <div class="card-body">
-            <h4 class="card-title">Apple</h4>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="card" style="width:100%">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/6zTJlK3YeS8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <div class="card-body">
-            <h4 class="card-title">Kotak</h4>
-          </div>
-        </div>
-
+      <div id="menu1" class="container tab-pane fade"><br>
+        <h3>Menu 1</h3>
+        <p>Canon</p>
+        <p>DJI</p>
+        <p>GoPro</p>
       </div>
     </div>
 
-    <!-- Left and right controls -->
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
-  </div>
-</section>
+  </section>
 
-<footer>
-</footer>
+  <footer class="row">
+    <ul class="footer col-lg-4">
+      <li class="footer-item">
+        <a class="footer-link" href="#" data-toggle="modal" data-target="#myModal">Contact</a>
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
 
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Contact</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
 
+              <!-- Modal body -->
+              <div class="modal-body">
+                <form action="#">
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                  </div>
+                  <div class="form-group">
+                    <input type="subject" class="form-control" id="subject" placeholder="Enter Subject" name="subject">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
 
-</body>
+              <!-- Modal footer -->
+              <div class="modal-footer">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="footer-item">
+        <a class="footer-link" href="#">Careers</a>
+      </li>
+      <li class="footer-item">
+        <a class="footer-link" href="#">Blog</a>
+      </li>
+    </ul>
+    <ul class="footer col-lg-4">
+      <li class="footer-item">
+        <a class="footer-link" href="#"><i class="fa fa-youtube-play"></i> Youtube</a>
+      </li>
+      <li class="footer-item">
+        <a class="footer-link" href="#"><i class="fa fa-vimeo"></i> Vimeo</a>
+      </li>
+      <li class="footer-item">
+        <a class="footer-link" href="#"><i class="fa fa-instagram"></i> Instagram</a>
+      </li>
+    </ul>
+    <ul class="footer col-lg-4">
+      <li class="footer-item">
+        <a class="footer-link" href="#">Terms & Conditions</a>
+      </li>
+      <li class="footer-item">
+        <a class="footer-link" href="#">Privacy policy</a>
+      </li>
+      <li class="footer-item">
+        <a class="footer-link" href="#">Copyright&copy; since 2018</a>
+      </li>
+    </ul>
+  </footer>
+
+  </body>
 </html>
