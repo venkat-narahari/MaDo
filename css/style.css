@@ -6,6 +6,10 @@ body{
   height: 100%;
 }
 
+main{
+
+}
+
 .jumbotron.landing{
   height: 100vh
   background-color: transparent;
@@ -23,12 +27,13 @@ body{
 }
 
 h2 .jumbotron.about{
-  font-family: font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 
-h6.jumbotron.about{
-  font-family: monospace;
+p{
+  font-family: 'Yellowtail', cursive;
+  font-size: 25px;
 }
 
 .footer-item, .footer-link, .footer{
