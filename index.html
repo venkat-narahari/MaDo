@@ -15,16 +15,16 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <main class="enclosed shadow-lg m-5">
+    <main class=" data-spy="scroll" data-target=".navbar" data-offset="50">
       <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light m-0 sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light m-0">
           <a class="navbar-brand" href="#">MaDo</a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navb">
-            <ul class="navbar-nav justify-content-end">
+          <div class="collapse navbar-collapse justify-content-end" id="navb">
+            <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="#work">WORK</a>
               </li>
@@ -38,14 +38,14 @@
           </div>
         </nav>
       </header>
-      <section class="jumbotron text-center landing">
+      <section class="container-fluid jumbotron jumbotron-fluid text-center landing">
         <h1>We create new age Ad Films</h1>
         <p>Filmmaking for business</p>
       </section>
-      <section class="jumbotron text-center v-100">
-        <div id="work" class="carousel slide" data-ride="carousel">
+      <section class="jumbotron jumbotron-fluid text-center work">
+        <div id="work" class="carousel slide carousel-fade" data-ride="carousel">
           <!-- Indicators -->
-          <ul class="carousel-indicators carousel-indicators-dark">
+          <ul class="carousel-indicators carousel-indicators">
             <li data-target="#work" data-slide-to="0" class="active"></li>
             <li data-target="#work" data-slide-to="1"></li>
             <li data-target="#work" data-slide-to="2"></li>
@@ -54,26 +54,26 @@
           <!-- The slideshow -->
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="card" style="width:100%">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/FnQyTR7SJeg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <div class="card-body">
-                  <h4 class="card-title">Adidas</h4>
+              <div class="card m-auto" style="width:95%;">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/4qlGc8jA31Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="card-body bg-dark">
+                  <h4 class="card-title"><span class="fa fa-tripadvisor"></span> Trip Advisor</h4>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
-              <div class="card" style="width:100%">
+              <div class="card m-auto" style="width:95%">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/-pF5bV6bFOU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <div class="card-body">
-                  <h4 class="card-title">Apple</h4>
+                <div class="card-body  bg-dark">
+                  <h4 class="card-title"><span class="fa fa-apple"> Apple</span></h4>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
-              <div class="card" style="width:100%">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/6zTJlK3YeS8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <div class="card-body">
-                  <h4 class="card-title">Kotak</h4>
+              <div class="card m-auto" style="width:95%">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/KhRjEXm7k5g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="card-body  bg-dark">
+                  <h4 class="card-title"><span class="fa fa-amazon"></span> Amazon</h4>
                 </div>
               </div>
 
@@ -92,32 +92,33 @@
 
       <section class="jumbotron text-center rounded-0 about" id="about">
         <h2>What we do?</h2>
-        <p>We like the internet.<br /> We love a high-powered internet connection.<br /> And we go gaga over free WiFi connection, because we travel a lot (just to make things clear).<br />Digital media has leveled the marketing and communication playing field.<br /> We’ve worked with small and medium sized enterprises in areas pertaining to creative and content management, design delivery, brand strategy, public relations, growth-hack solutions and user-interface and experience coupled with robust technology development.<br /> We are amongst the top creative agencies in Bangalore, and we’ve been recognized at several advertising and communication forums for our quirky, subtle and witty creative concepts that have yielded tremendous growth for the clients who’ve partnered with us.<br /> We are the Bold, Brave and Brilliant Marketing & Communication, Design and Development, Strategy & Consulting Creative Agency located in the startup capital of India – Bangalore.</p>
+        <p class="about-body">We like the internet.<br /> We love a high-powered internet connection.<br /> And we go gaga over free WiFi connection, because we travel a lot (just to make things clear).<br />Digital media has leveled the marketing and communication playing field.<br /> We’ve worked with small and medium sized enterprises in areas pertaining to creative and content management, design delivery, brand strategy, public relations, growth-hack solutions and user-interface and experience coupled with robust technology development.<br /> We are amongst the top creative agencies in Bangalore, and we’ve been recognized at several advertising and communication forums for our quirky, subtle and witty creative concepts that have yielded tremendous growth for the clients who’ve partnered with us.<br /> We are the Bold, Brave and Brilliant Marketing & Communication, Design and Development, Strategy & Consulting Creative Agency located in the startup capital of India – Bangalore.</p>
       </section>
 
-      <section class="container mt-3" id="tools">
+      <section class="container tools" id="tools">
         <h2>What we use?</h2>
         <br>
         <!-- Nav tabs -->
         <ul class="nav nav-tabs">
           <li class="nav-item">
-            <a class="nav-link active" data-toggle="tab" href="#home">Editing</a>
+            <a class="nav-link active" data-toggle="tab" href="#editing">Editing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#menu1">Electronics</a>
+            <a class="nav-link" data-toggle="tab" href="#electronics">Electronics</a>
           </li>
         </ul>
 
         <!-- Tab panes -->
         <div class="tab-content">
-          <div id="home" class="container tab-pane active"><br>
-            <p>Adobe Primier Pro</p>
-            <p>Final Cut Pro</p>
+          <div id="editing" class="container tab-pane active"><br>
+            <p class="tools-list-item"><span class="fa fa-file-video-o"> Final Cut X Pro</p>
+            <p class="tools-list-item"><span class="fa fa-magic"> Adobe CC Suite</p>
+            <p class="tools-list-item"><span class="fa fa-magic"> Autodesk CC</p>
           </div>
-          <div id="menu1" class="container tab-pane fade"><br>
-            <p>Canon</p>
-            <p>DJI</p>
-            <p>GoPro</p>
+          <div id="electronics" class="container tab-pane fade"><br>
+            <p class="tools-list-item"><span class="fa fa-camera"> Canon</p>
+            <p class="tools-list-item"><span class="fa fa-paper-plane"> DJI</p>
+            <p class="tools-list-item"><span class="fa fa-camera-retro"> GoPro</p>
           </div>
         </div>
 
@@ -144,7 +145,7 @@
                         <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
                       </div>
                       <div class="form-group">
-                        <input type="subject" class="form-control" id="subject" placeholder="Enter Subject" name="subject">
+                        <input type="text" class="form-control" id="subject" placeholder="Enter Subject" name="subject">
                       </div>
                       <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
@@ -182,11 +183,8 @@
           </li>
           <li class="footer-item">
             <a class="footer-link" href="#">Privacy policy</a>
-          </li>
-          <li class="footer-item">
-            <a class="footer-link disabled" href="#">Copyright&copy; since 2018</a>
-          </li>
         </ul>
+        <p class="footer-copyright col-lg-12" >Copyright&copy; since 2018. All rights reserved.</p>
       </footer>
     </main>
   </body>

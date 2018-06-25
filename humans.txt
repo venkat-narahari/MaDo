@@ -10,8 +10,7 @@
     HTML5, CSS3
 
 /* SITE */
-    Site Name: MADO
+    Site Name: MaDo
     Site URL: https://github.com/venkat-narahari/MaDo/
     Last Update: 24 June 2018
     Language: English
-
