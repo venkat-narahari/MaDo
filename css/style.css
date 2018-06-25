@@ -20,8 +20,7 @@ header{
 
 section.jumbotron{
   background-color: #FFFFFF;
-  padding: 5% 0%;
-  padding-top: 25%;
+  padding: 3% 3%;
 }
 
 nav{
@@ -36,7 +35,9 @@ nav{
   color: #000000;
   font-family: 'Monoton', cursive;
   word-spacing: 20px;
+  padding: 25%;
 }
+
 
 .jumbotron.work{
     margin: 0 auto;
@@ -133,6 +134,7 @@ ul .footer.col-lg-4{
 .nav-tabs>li>a{
   display: inline;
   color: #000000;
+  text-decoration: none;
 }
 
 .nav-tabs>li>a:active{

@@ -14,10 +14,10 @@
     <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <main class=" data-spy="scroll" data-target=".navbar" data-offset="50">
+  <body data-spy="scroll" data-target="#nav" data-offset="1">
+    <main>
       <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light m-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light m-0" id="nav">
           <a class="navbar-brand" href="#">MaDo</a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
             <span class="navbar-toggler-icon"></span>
@@ -44,8 +44,8 @@
         <p>Filmmaking for businesses</p>
       </section>
 
-      <section class="jumbotron jumbotron-fluid text-center work">
-        <div id="work" class="carousel slide carousel-fade" data-ride="carousel">
+      <section class="jumbotron jumbotron-fluid text-center work" id="work">
+        <div class="carousel slide carousel-fade" data-ride="carousel">
           <!-- Indicators -->
           <ul class="carousel-indicators carousel-indicators">
             <li data-target="#work" data-slide-to="0" class="active"></li>
@@ -57,7 +57,7 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="card m-auto" style="width:95%;">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/4qlGc8jA31Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/4qlGc8jA31Q" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 <div class="card-body bg-dark">
                   <h4 class="card-title"><span class="fa fa-tripadvisor"></span> Trip Advisor</h4>
                 </div>
@@ -65,7 +65,7 @@
             </div>
             <div class="carousel-item">
               <div class="card m-auto" style="width:95%">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/-pF5bV6bFOU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/-pF5bV6bFOU" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 <div class="card-body  bg-dark">
                   <h4 class="card-title"><span class="fa fa-apple"> Apple</span></h4>
                 </div>
@@ -73,7 +73,7 @@
             </div>
             <div class="carousel-item">
               <div class="card m-auto" style="width:95%">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/KhRjEXm7k5g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/KhRjEXm7k5g" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 <div class="card-body  bg-dark">
                   <h4 class="card-title"><span class="fa fa-amazon"></span> Amazon</h4>
                 </div>
@@ -119,14 +119,14 @@
         <!-- Tab panes -->
         <div class="tab-content">
           <div id="editing" class="container tab-pane active"><br>
-            <p class="tools-list-item"><span class="fa fa-file-video-o"> Final Cut X Pro</p>
-            <p class="tools-list-item"><span class="fa fa-magic"> Adobe CC Suite</p>
-            <p class="tools-list-item"><span class="fa fa-magic"> Autodesk CC</p>
+            <p class="tools-list-item"><span class="fa fa-file-video-o"></span> Final Cut X Pro</p>
+            <p class="tools-list-item"><span class="fa fa-magic"></span> Adobe CC Suite</p>
+            <p class="tools-list-item"><span class="fa fa-magic"></span> Autodesk CC</p>
           </div>
           <div id="electronics" class="container tab-pane fade"><br>
-            <p class="tools-list-item"><span class="fa fa-camera"> Canon</p>
-            <p class="tools-list-item"><span class="fa fa-paper-plane"> DJI</p>
-            <p class="tools-list-item"><span class="fa fa-camera-retro"> GoPro</p>
+            <p class="tools-list-item"><span class="fa fa-camera"></span> Canon</p>
+            <p class="tools-list-item"><span class="fa fa-paper-plane"></span> DJI</p>
+            <p class="tools-list-item"><span class="fa fa-camera-retro"></span> GoPro</p>
           </div>
         </div>
 
@@ -176,13 +176,13 @@
         </ul>
         <ul class="footer col-lg-4">
           <li class="footer-item">
-            <a class="footer-link" href="#"><i class="fa fa-youtube-play"></i> Youtube</a>
+            <a class="footer-link" href="#"><span class="fa fa-youtube-play"></span> Youtube</a>
           </li>
           <li class="footer-item">
-            <a class="footer-link" href="#"><i class="fa fa-vimeo"></i> Vimeo</a>
+            <a class="footer-link" href="#"><span class="fa fa-vimeo"></span> Vimeo</a>
           </li>
           <li class="footer-item">
-            <a class="footer-link" href="#"><i class="fa fa-instagram"></i> Instagram</a>
+            <a class="footer-link" href="#"><span class="fa fa-instagram"></span> Instagram</a>
           </li>
         </ul>
         <ul class="footer col-lg-4">
