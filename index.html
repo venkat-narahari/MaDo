@@ -3,19 +3,23 @@
   <head>
     <title>MaDo</title>
     <meta charset="utf-8">
+    <!--Bootstrap-links-fontawesome-icons-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <!--Google-fonts-->
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body data-spy="scroll" data-target="#nav" data-offset="1">
+    <!--Scroll-spy-body-->
     <main>
+      <!--Header-start-->
       <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light m-0" id="nav">
           <a class="navbar-brand" href="#">MaDo</a>
@@ -38,12 +42,15 @@
           </div>
         </nav>
       </header>
-      <!--Landing-->
+      <!--Header-end-->
+      <!--Landing-start-->
       <section class="jumbotron jumbotron-fluid text-center landing">
         <h1>We create new age Ad Films</h1>
         <p>Filmmaking for businesses</p>
       </section>
+      <!--Landing-end-->
 
+      <!--Work-start-->
       <section class="jumbotron jumbotron-fluid text-center work" id="work">
         <div class="carousel slide carousel-fade" data-ride="carousel">
           <!-- Indicators -->
@@ -91,7 +98,9 @@
           </a>
         </div>
       </section>
+      <!--Work-end-->
 
+      <!--About-start-->
       <section class="jumbotron jumbotron-fluid text-center rounded-0 about" id="about">
         <h2>What we do?</h2>
         <p class="about-body">We like the internet.<br />
@@ -102,7 +111,9 @@
           We are amongst the top creative agencies in Bangalore, and we’ve been recognized at several advertising and communication forums for our quirky, subtle and witty creative concepts that have yielded tremendous growth for the clients who’ve partnered with us.<br />
           We are the Bold, Brave and Brilliant Marketing & Communication, Design and Development, Strategy & Consulting Creative Agency located in the startup capital of India – Bangalore.</p>
       </section>
+      <!--About-end-->
 
+      <!--tools-start-->
       <section class="jumbotron jumbotron-fluid tools" id="tools">
         <h2>What we use?</h2>
         <br>
@@ -131,7 +142,9 @@
         </div>
 
       </section>
+      <!--Work-end-->
 
+      <!--Footer-end-->
       <footer class="row">
         <ul class="footer col-lg-4">
           <li class="footer-item">
@@ -150,12 +163,22 @@
                   <div class="modal-body">
                     <form action="#">
                       <div class="form-group">
-                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text"><span class="fa fa-envelope"></span></span>
+                          </div>
+                          <input type="email" class="form-control" placeholder="Email">
+                        </div>
                       </div>
                       <div class="form-group">
-                        <input type="text" class="form-control" id="subject" placeholder="Enter Subject" name="subject">
+                        <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text"><span class="fa fa-align-left"></span></span>
+                          </div>
+                          <input type="text" class="form-control" placeholder="Subject">
+                        </div>
                       </div>
-                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <button type="submit" class="btn btn-dark">Submit</button>
                     </form>
                   </div>
 
@@ -194,6 +217,7 @@
         </ul>
         <p class="footer-copyright col-lg-12" >Copyright&copy; since 2018. All rights reserved.</p>
       </footer>
+      <!--Footer-end-->
     </main>
   </body>
 </html>
