@@ -14,16 +14,16 @@ main{
 
 /*Header-style*/
 header{
-  position: fixed;
+  position: sticky;
+  position: -webkit-sticky;
   z-index: 1;
-  right: 3%;
-  left: 3%;
+  top:0;
 }
 
 /*Section-style*/
 section.jumbotron{
   background-color: #FFFFFF;
-  padding: 3% 3%;
+  padding: 6% 3%;
 }
 
 /*Nav-style*/
@@ -159,4 +159,33 @@ p.footer-copyright{
   font-size: 12px;
   text-align: center;
   padding: 20px;
+}
+
+/*Pagination-style*/
+.page-item.active>.page-link{
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+  border-color: #000000;
+}
+
+.page-item>.page-link{
+  background-color: #FFFFFF !important;
+  color: #343A40 !important;
+}
+
+.page-item>.page-link:hover{
+  background-color: #343A40 !important;
+  color: #FFFFFF !important;
+}
+
+/*Modal-style*/
+.modal-content{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+/*Badge-style*/
+.badge:hover{
+  padding: 2%;
+  background-color: #000000;
+  color: #FFFFFF;
 }
