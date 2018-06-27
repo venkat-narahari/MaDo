@@ -39,12 +39,26 @@ nav{
   color: #000000;
   font-family: 'Monoton', cursive;
   word-spacing: 20px;
-  padding: 25%;
+  padding-top: 30vh;
+  padding-bottom: 10vh;
+}
+
+/*Jumbotron-work-style*/
+.jumbotron.about{
+    margin: 0 auto;
+    padding-top: 30vh;
+}
+
+/*Jumbotron-work-style*/
+.jumbotron.tools{
+    margin: 0 auto;
+    padding-top: 30vh;
 }
 
 /*Jumbotron-work-style*/
 .jumbotron.work{
     margin: 0 auto;
+    padding-top: 30vh;
 }
 
 /*Iframe-style*/
@@ -159,6 +173,24 @@ ul .footer.col-lg-4{
   background-color: #000000;
 }
 
+/*Tab-images-style*/
+.tab-img{
+  width: 100%;
+}
+
+/*Quote-images-style*/
+.quote-img{
+  border-radius: 50%;
+  width:10vw;
+}
+
+#clients{
+  position: relative;
+  margin-top: 10vh;
+}
+
+
+
 /*Copyright-style*/
 p.footer-copyright{
   color: #FFFFFF;
@@ -195,4 +227,16 @@ p.footer-copyright{
   padding: 2%;
   background-color: #000000;
   color: #FFFFFF;
+}
+
+/*Tool cards*/
+.tooling{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  padding: 0%;
+  height: 100%;
+}
+
+/*Tools-cards-style*/
+.col-md-6{
+  padding: 1%;
 }
