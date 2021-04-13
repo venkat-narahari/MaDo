@@ -5,3 +5,5 @@ Mado is a static website using HTML, CSS and Bootstrap based on Ad film making.
 ## Documentation
 
  ![Website Page](/docs/img/MaDo.png)
+ 
+ ![Mobile Responsive Website Page](/docs/img/MaDoMobile.png)
